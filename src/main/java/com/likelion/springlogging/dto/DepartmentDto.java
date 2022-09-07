@@ -2,17 +2,12 @@ package com.likelion.springlogging.dto;
 
 import lombok.Data;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.util.List;
 
 @Data
 public class DepartmentDto {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer departmentId;
 
     @NotEmpty(message = "Department's name cannot be empty")

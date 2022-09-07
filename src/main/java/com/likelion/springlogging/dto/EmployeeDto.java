@@ -4,19 +4,15 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
+
 @Data
 public class EmployeeDto {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer employeeId;
 
     @NotEmpty(message = "Name cannot be empty")

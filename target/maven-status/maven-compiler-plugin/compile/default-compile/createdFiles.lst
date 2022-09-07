@@ -1,1 +1,4 @@
 com\likelion\springlogging\SpringloggingApplication.class
+com\likelion\springlogging\controller\AppController.class
+com\likelion\springlogging\dto\DepartmentDto.class
+com\likelion\springlogging\dto\EmployeeDto.class
