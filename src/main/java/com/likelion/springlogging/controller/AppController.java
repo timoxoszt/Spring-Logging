@@ -16,9 +16,21 @@ public class AppController {
     public String validEmployeeDto(@RequestBody @Valid EmployeeDto employeeDto){
         return "employeeDto is valid";
     }
+    //    http://localhost:9081/likelion/employeeDto
+    //{
+    //  "name": "vi minh tien",
+    //  "gender": "True",
+    //  "email":"tien@gmail.com"
+    //}
 
     @PostMapping("/departmentDto")
     public String validDepartmentDto(@RequestBody @Valid DepartmentDto departmentDto){
         return "departmentDto is valid";
     }
+    //    http://localhost:9081/likelion/departmentDto
+    //{
+    //  "deptName": "Quan ly nhan su",
+    //  "description": "day la phong quan ly nhan su",
+    //  "employeeDtoList":[{"name" : "minh tien vi", "birthDate" : "03/17/2002"}, {"gender" : "True", "email" : "tien@gmail.com"}]
+    //}
 }
