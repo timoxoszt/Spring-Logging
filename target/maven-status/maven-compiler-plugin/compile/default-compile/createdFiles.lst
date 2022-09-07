@@ -1,4 +1,10 @@
-com\likelion\springlogging\SpringloggingApplication.class
-com\likelion\springlogging\controller\AppController.class
-com\likelion\springlogging\dto\DepartmentDto.class
+com\likelion\springlogging\service\Imp\DepartmentServiceImp.class
+com\likelion\springlogging\service\DepartmentService.class
 com\likelion\springlogging\dto\EmployeeDto.class
+com\likelion\springlogging\SpringloggingApplication.class
+com\likelion\springlogging\aspect\EmployeeServiceAspect.class
+com\likelion\springlogging\service\EmployeeService.class
+com\likelion\springlogging\controller\AppController.class
+com\likelion\springlogging\aspect\DepartmentServiceAspect.class
+com\likelion\springlogging\dto\DepartmentDto.class
+com\likelion\springlogging\service\Imp\EmployeeServiceImp.class
